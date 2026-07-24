@@ -1,0 +1,13 @@
+# Render Deployment Config
+# TikTok Trend Analyzer Pro
+# By: Eng. Hafez Al-Sulaihi
+
+services:
+  - type: web
+    name: tiktok-trend-analyzer
+    runtime: docker
+    plan: free
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11
+    healthCheckPath: /_stcore/health

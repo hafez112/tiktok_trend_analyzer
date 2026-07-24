@@ -1,0 +1,20 @@
+{
+  "name": "TikTok Trend Analyzer Pro",
+  "description": "Professional TikTok trend analysis and content planning tool",
+  "repository": "https://github.com/hafez-alsulaihi/tiktok-trend-analyzer",
+  "logo": "https://cdn-icons-png.flaticon.com/512/3046/3046126.png",
+  "keywords": ["tiktok", "analytics", "streamlit", "python"],
+  "image": "heroku/python",
+  "stack": "heroku-22",
+  "env": {
+    "PYTHON_VERSION": {
+      "description": "Python version",
+      "value": "3.11"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
